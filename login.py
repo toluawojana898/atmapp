@@ -17,7 +17,7 @@ def enter_pass(username,password):
       userinput = input('Enter username again: ')
       pidkeys = pas.getpass(prompt='password again: ')
       if attempts <= 1:
-        print('This account is locked, try again in 24 hours sorry!')
+        print('This account is lockhoed, try again in 24 hours sorry!')
         return False
 
 #enter_pass('tolu','tolu')
